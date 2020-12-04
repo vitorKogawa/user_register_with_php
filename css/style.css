@@ -1,0 +1,71 @@
+body > div.cadastro-usuario{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+body > div.cadastro-usuario > div.formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > div.cadastro-usuario > div.formulario > form{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body > div.cadastro-usuario > div.formulario > form > h2,
+body > div.usuarios-cadastrados div.formulario > h2
+{
+    font-size: 30px;
+    font-family: Arial;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+body > div.cadastro-usuario > div.formulario > form > input[type="text"],
+body > div.cadastro-usuario > div.formulario > form > input[type="email"],
+body > div.cadastro-usuario > div.formulario > form > input[type="number"],
+body > div.cadastro-usuario > div.formulario > form > select
+{
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 15px;
+    background-color: #ddd;
+    transition: .3s ease-in-out;
+}
+
+body > div.cadastro-usuario > div.formulario > form > input[type="text"]:focus,
+body > div.cadastro-usuario > div.formulario > form > input[type="email"]:focus,
+body > div.cadastro-usuario > div.formulario > form > input[type="number"]:focus,
+body > div.cadastro-usuario > div.formulario > form > select:focus
+{
+    border: 1px solid  #28a745;
+}
+
+body > div.cadastro-usuario > div.formulario > form > input[type="submit"]
+{   
+    outline: none;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px;
+    background-color: #28a745;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+body > div.cadastro-usuario > div.formulario > form > input[type="submit"]:hover{
+    opacity: 0.9;
+}

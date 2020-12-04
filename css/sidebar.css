@@ -1,0 +1,28 @@
+div.sidebar{
+    background-color: #242424;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+}
+
+div.sidebar > ul > li {
+    display: block;
+    padding: 15px 5px;
+    transition: .2s ease-in-out;
+}
+
+div.sidebar > ul > li > a{
+    color: #ddd;
+    text-decoration: none;
+}
+
+div.sidebar > ul > li:hover{
+    background-color: #000;
+    border-left: 4px solid #28a745;
+    color: #ffffff;
+}
+
+.active{
+    border-left: 4px solid #28a745;
+    background-color: #000;
+}

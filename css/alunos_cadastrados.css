@@ -1,0 +1,18 @@
+div.alunos-cadastrados{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+div.alunos-cadastrados > div.tabela{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.alunos-cadastrados > div.tabela > h2{
+    padding: 20px;
+}
